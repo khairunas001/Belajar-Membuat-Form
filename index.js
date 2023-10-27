@@ -52,4 +52,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     event.preventDefault();
   });
+
+  document.getElementById('inputCopy').addEventListener('copy', function () {
+    alert('Anda telah men-copy sesuatu...');
+  });
+
+  document.getElementById('inputPaste').addEventListener('paste', function () {
+    alert('Anda telah mem-paste sebuah teks...');
+  });
 });
